@@ -16,16 +16,28 @@ body
     z-index: 10;
     
 }
+.navbar-brand
+{
+    color: whitesmoke !important;
+    font-size: 60px !important;
+    font-weight: 400;
+    float:left;
+    padding-left: 20px;
+}
 
 .navbar
 {
- background-image: linear-gradient(to right, #3ac5fc, hsla(181, 94%, 81%, 0.74), #3ac5fc ) ;
- padding: right !important;
+    padding-left: 20px;
+    background-image: linear-gradient(to right, #3ac5fc, hsla(181, 94%, 81%, 0.74), #3ac5fc ) ;
+    font-size: 20px;
+    float: right;
+    padding-right: 20px !important;
 }
 .navbar-brand img
 {
-    height: 60px;
-    padding-left: 40px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 .navbar-nav li
 {
@@ -33,14 +45,14 @@ body
 }
 .navbar-nav li a
 {
-    color:rgb(8, 8, 8) !important;
+    color:rgb(0, 0, 0) !important;
     font-weight: 500;
     float: right;
-    text-align: left;
+    text-align: right;
 }
 .fa-bars
 {
-    color:black;
+    color:rgb(105, 46, 46);
     font-size: 30px !important;
 }
 .navbar-toggler
@@ -72,4 +84,57 @@ body
 {
     color:black;
     text-decoration: none;
+}
+
+/*-------------------------------- Project Section------------------------------------------------------*/
+
+#project
+{
+    padding: 80px 0;
+}
+.project-img
+{
+    width: 200px;
+    margin-top: 20px;
+}
+.projects
+{
+    padding: 20px;
+}
+.projects h5
+{
+    padding: 5px;
+    margin-top: 25px;
+}
+.title::before
+{
+    content: '';
+    background: rgb(21, 23, 156);
+    height: 5px ;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(63px);    
+}
+.title::after
+{
+    content: '';
+    background: rgb(42, 44, 167);
+    height: 10px ;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display:block;
+    transform: translateY(8px);    
+}
+#services .btn-primary
+{
+    box-shadow:none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #3ac5fc, hsla(181, 94%, 81%, 0.74), #3ac5fc );
+    
 }
