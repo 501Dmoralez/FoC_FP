@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Fundamentals OF Computing  </title>
+<title> FoC</title>
+<style type="text/css">
+  body{
+    background-image: url(images/blutech.jpg);
+    background-size: contain;
+  }
+
+</style>
 <link rel="stylesheet" href = "style.css">
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
@@ -10,69 +17,74 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
 <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
-<section: id="nav-bar">
-  <!-- <div class="container-fluid"></div> -->
-    <nav class="navbar navbar-expand-lg navbar-light" >   
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#">GROUP 4   </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav mr-auto p-1">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Course</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Concepts</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Databases</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Documentation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Dev Team</a>
-              </li>
-            </ul>
-          </div> 
-        </div>
-      </nav>
-    
+  
+  <section: id="nav-bar">
+<!--div class="container-fluid"></!--div> -->
+  <nav class="navbar navbar-expand-lg navbar-light" >   
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">GROUP 4 </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav mr-auto p-1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="concepts.html">Concepts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="database.html">Databases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="documentation.html">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dev Team</a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+  
 </section:>
 <!-------------------banner section---------------------->
 <section id="banner">
-  <div class="container">
-  <div class="row">
-  <div class="col-md-6">
-  <p class="promo-title"> FUNDAMENTALS OF COMPUTING</p>
-  <p>This course is an introduction to the fundamentals of Computer Science that will provide students with a foundation for future courses in Computer Science. 
-    The course is a broad survey of the discipline through topics that allow students to understand the capabilities of computer systems in terms of: the computer
-    architecture; operating systems and computer networks; software and software development; data organization and visualization; and the potential of computing 
-    machines.</p>
-    <a href="#"><img src="images/ub.png" class="play-btn">Find the course here</a>
-    </div>
-    <div class="col-md-6">
-    <img src="images/cp.png" class = "img-fluid">
-    </div>
+<div class="container"> 
+ <div class="d-flex justify-content-start"> <!-- removed class="row"" -->
+<div class="col-md-7" style="margin-right: 3rem">
+<p class="promo-title">FUNDAMENTALS OF COMPUTING</p>
+<p>This course is an introduction to the fundamentals of Computer Science that will provide students with a foundation for future courses in Computer Science. 
+  The course is a broad survey of the discipline through topics that allow students to understand the capabilities of computer systems in terms of: the computer
+  architecture; operating systems and computer networks; software and software development; data organization and visualization; and the potential of computing 
+  machines.</p>
+  </div> <br>
+  <div class="col-md-5">
+  <img src="images/cp.png" class="img-fluid">
   </div>
-  </div>
-  </div>
+</div>
+<a href="#"><img src="images/ub.png" class="play-btn"> Find the course here</a>
+</div>
 
-</section>
+</div>
+</section> 
 
 <!----------------------------------project Section----------------------------------->
 <section id="projects">
 <div class="container text-center">
 <h1 class="title">WHAT WE DID!</h1>
 <div class="row text-center">
+<div class="col-md-4 projects">
+<img src="images/fundamentals.jpg" class="project-img">
+<h5>COURSE</h5>
+</div>
 <div class="col-md-4 projects">
 <img src="images/project.jpg" class="project-img">
 <h5>PROJECTS</h5>
@@ -89,13 +101,58 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
       <img src="images/documentation.jpg" class="project-img">
       <h5>DOCUMENTATION</h5>
       </div>
-      <div class="col-md-4 projects">
-        <img src="images/dev.jpg" class="project-img">
-        <h5>DEV. TEAM</h5>
-        </div>
+    <div class="col-md-4 projects">
+      <img src="images/dev.jpg" class="project-img">
+      <h5>DEV. TEAM</h5>
+      </div><br>
+      <div class="col-md-12 ">
+        <button type="button" class="btn btn-primary ">FoC</button>
+      </div>     
 </div>
 </div>
-<button type="button" class="btn btn-primary">All Projects</button>
+<br>
 </section>
+<!------------About Us-------------->
+<section id="about-us">
+<div class="container">
+<h1 class="title text-center">WHY CHOOSE US?</h1>
+<div class="row">
+<div class="col-md-6 about-us">
+<p class="about-title">What makes us different</p>
+  <ul>
+  <li>Hard work pays off</li>
+  </ul>
+</div>
+<div class="col-md-6">
+<img src="images/dif.jpg" class="img-fluid">
+</div>
+</div>
+</div>
+</section>
+<!-------------Social Media Section------------->
+<section id="social-media">
+<div class="container text-center">
+  <p>FIND US ON SOCIAL MEDIA</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/fcbk.png"></a>
+      <a href="#"><img src="images/instagram.png"></a>
+      <a href="#"><img src="images/whatsapp.png"></a>
+
+
+    </div>
+</div>
+</section>
+<!-----------------Footer Section------------------->
+<section id="footer">
+  <!-- <img src="images/bk.jpg" class="footer-img"> -->
+  <div class="container">
+  <div class="row">
+  <!-- <div class="col-md-4 footer-box">
+  <img src="images/ub.png">
+    <p>Powered By UB</p> -->
+  </div>
+  </div>
+  </div>
+</section> 
 </body>
 </html>
